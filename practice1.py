@@ -9,7 +9,7 @@ START_URL = "https://www.musashino-u.ac.jp/"  # 武蔵野大学のトップペ�
 # START_URL = "https://www.musashino-u.ac.jp/sitemap/" # サイトマップページから始める場合
 DOMAIN = urlparse(START_URL).netloc
 OUTPUT_FILE = "musashino_u_sitemap.csv"
-WAIT_TIME = 2  # アクセス間の待機時間（秒）
+WAIT_TIME = 1  # アクセス間の待機時間（秒）
 
 def get_page_info(url):
     """
